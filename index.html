@@ -1,24 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    
+
+
+ 
+ <!DOCTYPE html>
+ <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Chat App</title>
+      <link rel="stylesheet" href="style.css">
+
+      <style>
+        body{
+            background-image:url(images/flat-world-emoji-day-background-with-emoticons_23-2149427424.avif);
+      background-size: cover; /* Make the image cover the entire screen */
+      background-repeat: no-repeat; /* Prevent tiling */
+        }
+      </style>
+    </head>
+    <body>
+        
+        <div class="chat-container">
+            <div class="chat-header">Chat App</div>
+            <div class="chat-box" id="chatBox"></div>
+            <div class="chat-input-container">
+              <input type="text" id="messageInput" placeholder="Type a message..." />
+              <button id="sendMessage">Send</button>
+            </div>
+          </div>
+      
 
 
 
-    <h1>post app</h1>
+
+       
 
 
-
-<div class="p">
-    <div class="t"></div>
-</div>
-    <script type="module" src="firebase.js"></script>
-    <script src="app.js"></script>
+          <script type="module" src="firebase.js"></script>
+      <script src="script.js"></script>
+    <script src="form.js"></script>
+    <script type="module" src="app.js"></script>
+     
 </body>
 </html>
